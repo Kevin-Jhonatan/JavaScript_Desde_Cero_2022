@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  height: 636px;
+  background: gray;
+  .header {
+    .title {
+      text-align: center;
+    }
+  }
+  .main-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    .ten-class {
+      background: rgba(69, 43, 95, 0.247);
+      width: 200px;
+      height: 200px;
+      h2 {
+        text-align: center;
+      }
+      ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 1%;
+        li {
+          margin-right: 1%;
+          margin: 6%;
+          list-style: none;
+          a {
+          }
+        }
+      }
+    }
+    .twenty-class {
+      background: red;
+      width: 200px;
+      height: 200px;
+    }
+    .thirty-class {
+      background: green;
+      width: 200px;
+      height: 200px;
+    }
+    .forty-class {
+      background: orange;
+      width: 200px;
+      height: 200px;
+    }
+    .fifty-class {
+      background: palegreen;
+      width: 200px;
+      height: 200px;
+    }
+    .sixty-class {
+      background: cornflowerblue;
+      width: 200px;
+      height: 200px;
+    }
+    .seventy-class {
+      background: darkblue;
+      width: 200px;
+      height: 200px;
+    }
+    .eighty-class {
+      background: rgb(247, 2, 234);
+      width: 200px;
+      height: 200px;
+    }
+    .ninety-class {
+      background: darkred;
+      width: 200px;
+      height: 200px;
+    }
+    .one_hundred-class {
+      background: #fff;
+      width: 200px;
+      height: 200px;
+    }
+  }
+}
