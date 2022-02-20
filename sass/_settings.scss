@@ -1,0 +1,73 @@
+/* Variables de color con triada desde color.adobe.com */
+$blue-100-primary-light: #e7f4fd;
+$blue-200-primary-light: #cfe9fc;
+$blue-300-primary-light: #b8defa;
+$blue-400-primary-light: #a0d3f8;
+$blue-500-primary-light: #88c9f7;
+$blue-600-primary-light: #70bef5;
+$blue-700-primary-light: #58b3f3;
+$blue-800-primary-light: #41a8f1;
+$blue-900-primary-light: #299df0;
+$blue-primary-base: #1192ee;
+$blue-100-primary-dark: #0f83d6;
+$blue-200-primary-dark: #0e75be;
+$blue-300-primary-dark: #0c66a7;
+$blue-400-primary-dark: #0a588f;
+$blue-500-primary-dark: #094977;
+$blue-600-primary-dark: #073a5f;
+$blue-700-primary-dark: #052c47;
+$blue-800-primary-dark: #031d30;
+$blue-secondary-100: #76a5c7;
+$blue-secondary-200: #5f96bd;
+$blue-secondary-300: #4987b4;
+$blue-secondary-400: #3278aa;
+$blue-secondary-500: #1b69a1;
+$blue-secondary-600: #185f91;
+$blue-secondary-700: #165481;
+$blue-secondary-800: #134a71;
+$blue-secondary-900: #103f61;
+$red-100: #f4807e;
+$red-200: #f26b69;
+$red-300: #f15653;
+$red-400: #ef413e;
+$red-500: #ed2c28;
+$red-600: #d52824;
+$red-700: #be2320;
+$red-800: #a61f1c;
+$red-900: #8e1a18;
+$red-base: #8e1a18;
+$yelow-100: #f4f47e;
+$yelow-200: #f2f269;
+$yelow-300: #f1f153;
+$yelow-400: #efef3e;
+$yelow-500: #eded28;
+$yelow-600: #d5d524;
+$yelow-700: #bebe20;
+$yelow-800: #a6a61c;
+$yelow-900: #8e8e18;
+$yellow-100-secondary: #c7c668;
+$yellow-200-secondary: #bdbd4f;
+$yellow-300-secondary: #b4b335;
+$yellow-400-secondary: #aaaa1c;
+$yellow-500-secondary: #a1a003;
+$yellow-600-secondary: #919003;
+$yellow-700-secondary: #818002;
+$yellow-800-secondary: #717002;
+$yellow-900-secondary: #616002;
+/* Mobile 300px - 767px */
+$small: 300px;
+$small-max: 767px;
+/* Tablet 768px - 1023px */
+$medium: 768px;
+$medium-max: 1023px;
+/* Desktop 1024 a 1780 */
+$big: 1024px;
+$big-x: 1780px;
+/* Desktop big 1780 a 3195 */
+$big-xx: 3195px;
+/* ------------------ */
+@mixin min($medida) {
+  @media screen and (min-width: $medida) {
+    @content;
+  }
+}
