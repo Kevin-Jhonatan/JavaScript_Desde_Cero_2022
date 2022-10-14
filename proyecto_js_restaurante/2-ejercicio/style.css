@@ -1,0 +1,16 @@
+
+body {
+  overflow: hidden;
+  height: inherit;
+}
+
+h1 {
+  font-size: 2rem;
+  letter-spacing: -1px;
+  margin: 0;
+  top: -4px;
+  right: 5px;
+  text-align: center;
+  text-shadow: 0 0 4px rgb(235, 18, 188);
+}
+

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+
+<body>
+
+
+
+  <h3>Botones Funcionales</h3>
+  <p><b>Enunciado</b></p>
+  <p>cybers : Realizar un sistema de un clic con tres enlaces que cada enlace tenga diferentes funciones ? </p>
+  <p><b>R.-</b> Para el ejemplo usamos botones en lugar de enlaces, ademas hicimos el uso de cuatro en vez de usar tres
+    botones</p>
+  <hr>
+
+  <p class="primero"><b>Primero</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+    ullam magni incidunt, beatae quibusdam repellat eveniet reprehenderit
+    odit id corrupti minima, reiciendis totam enim iusto numquam quo? Alias,
+    nam corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Placeat molestiae alias temporibus repellat unde! Quis qui, aliquam doloribus
+    nam suscipit, blanditiis praesentium eius sit voluptas labore, dolor deleniti? Doloremque, minus.
+  <p class="segundo"><b>Segundo</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+    ullam magni incidunt, beatae quibusdam repellat eveniet reprehenderit
+    odit id corrupti minima, reiciendis totam enim iusto numquam quo? Alias,
+    nam corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Placeat molestiae alias temporibus repellat unde! Quis qui, aliquam doloribus
+    nam suscipit, blanditiis praesentium eius sit voluptas labore, dolor deleniti? Doloremque, minus.
+  </p>
+  <p class="tercero"><b>Tercero</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+    ullam magni incidunt, beatae quibusdam repellat eveniet reprehenderit
+    odit id corrupti minima, reiciendis totam enim iusto numquam quo? Alias,
+    nam corrupti. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Placeat molestiae alias temporibus repellat unde! Quis qui, aliquam doloribus
+    nam suscipit, blanditiis praesentium eius sit voluptas labore, dolor deleniti? Doloremque, minus.
+  </p>
+
+  <button class="hide_prim">eliminar primero</button>
+  <button class="show_prim">reaparecer primero</button>
+  <button class="color_prim1">pintar</button>
+  <button class="color_prim2">despintar</button>
+  <br><br>
+  <button class="hide_seg">eliminar segundo</button>
+  <button class="show_seg">reaparecer segundo</button>
+  <button class="color_seg1">pintar</button>
+  <button class="color_seg2">despintar</button>
+  <br><br>
+  <button class="hide_ter">eliminar tercero</button>
+  <button class="show_ter">reaparecer tercero</button>
+  <button class="color_ter1">pintar</button>
+  <button class="color_ter2">despintar</button>
+</body>
+
+
+
+<script>
+  $(function () {
+
+    $("h3").css({ "background": "rgba(26, 24, 25, 0.637" });
+    $("h3").css({ "padding": "18px" });
+    $("h3").css({ "color": "rgb(236, 143, 67)" });
+    $("h3").css({ "text-shadow": "-2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000" });
+
+
+  });
+  $(function () {
+
+    $("button").css({ "background": "rgba(26, 24, 25, 0.637" });
+    $("button").css({ "padding": "18px" });
+
+    $(".hide_prim").click(function () {
+      $(".primero").fadeOut();
+    });
+
+    $(".show_prim").click(function () {
+      $(".primero").fadeIn();
+    });
+
+    $(".color_prim1").click(function () {
+      $(".primero").css({ "background": "rgba(26, 24, 25, 0.637" });
+      $(".primero").css({ "color": "rgb(255, 255, 255)" });
+    });
+    $(".color_prim2").click(function () {
+      $(".primero").css({ "background": "rgb(255, 255, 255)" });
+      $(".primero").css({ "color": "rgb(0, 0, 0)" });
+    });
+
+    $(".hide_seg").click(function () {
+      $(".segundo").fadeOut();
+    });
+
+    $(".show_seg").click(function () {
+      $(".segundo").fadeIn();
+    });
+
+    $(".color_seg1").click(function () {
+      $(".segundo").css({ "background": "rgba(26, 24, 25, 0.637" });
+      $(".segundo").css({ "color": "rgb(255, 255, 255)" });
+    });
+    $(".color_seg2").click(function () {
+      $(".segundo").css({ "background": "rgb(255, 255, 255)" });
+      $(".segundo").css({ "color": "rgb(0, 0, 0)" });
+    });
+
+    $(".hide_ter").click(function () {
+      $(".tercero").fadeOut();
+    });
+
+    $(".show_ter").click(function () {
+      $(".tercero").fadeIn();
+    });
+
+    $(".color_ter1").click(function () {
+      $(".tercero").css({ "background": "rgba(26, 24, 25, 0.637" });
+      $(".tercero").css({ "color": "rgb(255, 255, 255)" });
+
+    });
+    $(".color_ter2").click(function () {
+      $(".tercero").css({ "background": "rgb(255, 255, 255)" });
+      $(".tercero").css({ "color": "rgb(0, 0, 0)" });
+    });
+
+
+  });
+</script>
+
+</html>
