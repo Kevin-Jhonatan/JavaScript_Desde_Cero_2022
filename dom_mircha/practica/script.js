@@ -85,3 +85,9 @@ const tamañoNavegador = () => {
       windowHeight
   );
 };
+
+const test = document.querySelector(".test");
+test.addEventListener("click", saludar);
+const saludar = () => {
+  console.log("Hola soy un evento saludar");
+};
