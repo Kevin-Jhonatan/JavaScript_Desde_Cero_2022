@@ -1,0 +1,28 @@
+.title {
+  text-align: center;
+}
+.link {
+  text-align: center;
+  text-decoration: none;
+  color: brown;
+  font-size: 2rem;
+}
+.modal {
+  background-color: red;
+  display: none;
+}
+.mostrarModal {
+  display: block;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  background: green;
+}
+.icon::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+  content: "\f00d";
+}
+.powr-weather {
+}
